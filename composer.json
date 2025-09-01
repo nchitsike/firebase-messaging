@@ -1,0 +1,22 @@
+{
+    "name": "nchitsike/firebase-messaging",
+    "description": "A PHP library for Firebase Cloud Messaging authentication and notification sending",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norbert Chitsike",
+            "email": "nochitsike@icode.co.zw"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-curl": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FirebaseMessaging\\": "src/"
+        }
+    }
+}
